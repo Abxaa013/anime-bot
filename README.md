@@ -48,7 +48,7 @@ Le résultat est enregistré dans `data/animes.csv`, et les vecteurs calculés d
 ## Lancer le projet sur son ordinateur
 
 ```powershell
-git clone https://github.com/VOTRE-PSEUDO-GITHUB/anime-bot.git
+git clone https://github.com/Abxaa013/anime-bot.git
 cd anime-bot
 python -m venv .venv
 .venv\Scripts\Activate.ps1        # macOS / Linux : source .venv/bin/activate
@@ -68,13 +68,6 @@ L'appli tourne sur un Space Hugging Face (SDK Gradio, matériel CPU Basic). Depu
 hf auth login        # une seule fois, avec une clé d'accès de type « Write »
 python deployer.py
 ```
-
-## Pistes d'amélioration
-
-- Comprendre les réponses libres avec un modèle de classification « zero-shot »
-- Expliquer chaque recommandation en français avec un petit modèle de langage (Qwen)
-- Reconnaître aussi les titres japonais des animes aimés
-- Ajuster le poids de la note (`POIDS_NOTE` dans `moteur.py`) et le seuil de note (`SEUIL_NOTE` dans `preparer_donnees.py`)
 
 ## Crédits
 
