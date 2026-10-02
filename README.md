@@ -2,7 +2,7 @@
 
 Un chatbot qui pose quelques questions sur vos envies, puis propose un top 3 d'animes à voir. Il est construit en Python, avec des modèles Hugging Face et une interface Gradio.
 
-**Essayer l'appli :** https://huggingface.co/spaces/VOTRE-PSEUDO/anime-bot
+**Essayer l'appli :** https://huggingface.co/spaces/abxaa/anime-bot
 
 ## Comment ça marche
 
