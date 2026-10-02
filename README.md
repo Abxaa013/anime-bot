@@ -60,14 +60,6 @@ Ouvrez ensuite http://127.0.0.1:7860 dans votre navigateur. Au premier lancement
 
 Pour régénérer les données, lancez `python preparer_donnees.py`. Les vecteurs sont recalculés automatiquement au lancement suivant.
 
-## Mise en ligne
-
-L'appli tourne sur un Space Hugging Face (SDK Gradio, matériel CPU Basic). Depuis 2026, héberger un Space Gradio demande un abonnement Hugging Face PRO. Pour publier une nouvelle version :
-
-```powershell
-hf auth login        # une seule fois, avec une clé d'accès de type « Write »
-python deployer.py
-```
 
 ## Crédits
 
